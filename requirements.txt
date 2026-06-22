@@ -1,3 +1,8 @@
-streamlit>=1.30.0
-selenium>=4.0.0
-Pillow>=9.0.0
+# Pinned to stable ranges for Streamlit Community Cloud (pair with Python 3.13).
+# Note: selenium/Pillow are used by lakelady.py (local Selenium automation),
+# which cannot run on Streamlit Cloud. They are kept for the local install.
+# The cloud deployment renders the UI only.
+streamlit>=1.37,<1.50
+pandas>=2.0,<2.3
+selenium>=4.0,<5.0
+Pillow>=10.0,<11.1
