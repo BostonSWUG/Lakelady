@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.exe
+*.zip
+*.mp4
+*.one
+*.onetoc2
+*.docx
+archive/
+EcoPack_Agile_Import_Script_Notes/
+OneDrive_*.zip
+*.log
+/build
+
+# Scratch/draft files
+lakelady_download.py
+
+# Build artifacts
+dist/
+.deps_installed
